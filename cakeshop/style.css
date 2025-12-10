@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(sky.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+}
+ 
+.header{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-around;
+    height: 30px;
+}
+.header i
+{
+    font-size:15px;
+    padding:5px;
+}
+h4,h5{
+    color: rgb(56, 56, 252);
+    font-size:20px;
+}
+.donat{
+    width: 50%;
+    height: 70%;
+    border-radius: 50px;
+    padding-left:30%;
+}
+h1{
+    
+    color:  rgb(75, 75, 255);
+    text-align: center;
+   
+}
+.hading{
+    width: 100%;
+    padding: 30px;
+    font-size: 30px;
+
+}
+.donate img
+{
+    width:200px;
+    padding: 10px;
+    border-radius:70px;
+    
+}
+.donate{
+     text-align: center;
+}
+.search-box {
+   
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.search-box input{
+    font-size:20px;
+    width: 30%;
+    margin-top:55px;
+    border: 0cap;
+    padding:7px;
+}
+.search-box button{
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border: 0cap;
+    padding:7px;
+}
+#map img{
+    width: 200px;
+}
+/* .wave{
+    width: 100%;
+    height:60px;
+    background:radial-gradient(circle at 50% 0, #d6ecff 70%, transparent 71%)repeat-x;
+    background-size: 20px 20px;
+} */

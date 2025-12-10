@@ -1,0 +1,494 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size:serif;
+    box-sizing: border-box;
+   
+}
+.main{
+    box-sizing: border-box;
+    width: 100vh;
+    height: 10px;
+}
+img {
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+}
+h1{
+    padding: 30px;
+    text-align: center;
+    color: rgb(56, 56, 252);
+}
+.Goodies{
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  justify-content: space-evenly;
+   
+}
+.Goodies i{
+       color: rgb(56, 56, 252);
+       font-size: 40px;
+       padding-top: 20px;
+}
+figcaption{
+  color: rgb(56, 56, 252);
+  font-size: bold;
+
+}
+/* .cake{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 120px;
+    background:pink;
+    background-size: cover;
+} */
+
+/* .pink-wave{
+    background-color: pink;
+    position: relative;
+    min-height: 300px;
+    margin-top: 100px;
+    
+} */
+/* .pink-wave::before,.pink-wave::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width:100%;
+    height: 80px;
+    background: pink;
+
+    -webkit-mask: 
+    radial-gradient(60px 60px at 50% 0, pink 98%,transparent 5%)
+    0 0/100px 100px repeat-X;
+    mask: 
+     radial-gradient(60px 60px at 50% 0, pink 98%,transparent 50%)
+    0 0/100px 100px repeat-x;
+    
+}
+.pink-wave::before{
+    top:-80px;
+}
+.pink-wave::after{
+    bottom: -80px;
+    transform: scaleX(-1);
+}
+.pink-wave::before{
+    bottom: -80px;
+    transform: scaleY(-1);
+} */
+/* #cake{
+    width:300px;
+    height:300px;
+    border-radius:80px;
+    margin-left:60%;
+    transform: rotate(30deg);
+    box-shadow: 20px solid black;
+}
+#cream
+{
+    width: 300px;
+    height: 150px;
+} */
+ .card {
+    background-image:url("cupcake.png");
+    background-size: cover;
+    width:200vh;
+    height:60vh;
+    margin:50px;
+    display: flex;
+  justify-content: end; /* horizontal center */
+  align-items: center;     /* vertical center */
+}
+ #pastri
+ {
+    width:450px;
+    height:350px;
+    border-radius:70px;
+    align-items: center;
+    padding:40px;
+    transform: rotate(-7deg);
+    opacity: 0.9;
+   
+
+ }
+ .text
+ {
+    width: 260px;
+    height: 200px;
+    padding:30px;
+    background-color: rgb(255, 255, 255 ,0.4);
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: start;
+   
+ }
+ /* .content
+ {
+    background-color:rgb(255, 255, 255 ,0.4);
+    width: 350px;
+    height: 300px;
+
+ }
+ .content h1{
+    padding-bottom:0px;
+ } */
+
+ .content h1{
+    font-size: 40px;
+    padding:0px;
+    padding-right:90px;
+ }
+ .para
+ {
+    width: 50vh;
+    height:25vh;
+    background-color:rgb(255, 255, 255,0.4);
+    padding: 20px;
+    border-radius: 20px;
+    text-align:start;
+    margin-left:140px;
+    margin-right:30%;
+    margin-bottom:100px;
+    width: fit-content;
+ }
+ 
+.product{
+    width: 100%;
+    padding-bottom:0px;
+
+    background-color: rgb(206, 225, 233);
+    
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    height: 100;
+    padding: 20px;
+}
+.img1{
+    width:250px;
+    height: 200px;
+    background-color:rgb(255, 255, 255,0.9);
+    padding: 10px;
+   
+}
+.img1 img{
+   width:130px;
+   height:120px;
+   margin-left: 40px;
+}
+.cards h3{
+     color: rgb(56, 56, 252);
+}
+.cards h4{
+    color: red;
+}
+.review {
+    background-color: pink; 
+}
+/* .sweet img{
+    width: 350px;
+    height: 300px;
+    padding:20px;
+}
+.review h1{
+    font-size: 40px;
+}
+.lists{
+    display: inline-block;
+    
+}
+.lists ul{
+    display: grid;
+    grid-template-columns:300px 300px;
+    padding: 20px;
+    margin: 30px;
+    
+} */
+.review-section{
+    background: pink;
+    padding: 40px 0;
+}
+.title
+{
+    text-align: center;
+    color: #2a4b8d;
+    margin-bottom: 30px;
+}
+.review-conatiner
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+
+}
+.left-image img{
+   width:250px;
+   height: 250px;
+   padding: 20px;
+}
+.review-text{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px 50px;
+}
+.review h4{
+    color: #2a4b8d;
+    margin-bottom: 10px;
+}
+.review-section
+{
+    background-color: #f8b6c6;
+    padding: 60px 0;
+    position: relative;
+}
+.review-section::before{
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: repeating-radial-gradient(circle at 10px 10px,white 10px,white 10px, transparent(11px)repeat-x);
+    background-size: 20px 20px;
+}
+.review-section::after
+{
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: radial-gradient(circle at 10px 0px white 10px,transparent(11px)repeat-X);
+    background-size: 20px 20px;    
+
+}
+.article{
+    background-color: rgb(188, 202, 207);
+    width: 100%;
+    height: 60vh;
+   padding-bottom: 0%;
+}
+.heading{
+    font-size:30px;
+    text-align: center;
+    color: #2a4b8d;
+    padding: 20px;
+}
+.new{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.new1{
+   background: url(article1.png);
+   background-repeat: no-repeat;
+   height: 200px;
+   width: 300px;
+}
+.new2{
+   background: url(article2.png);
+      background-repeat: no-repeat;
+   height: 200px;
+   width: 300px;
+}
+.new3{
+   background: url(article4.png);
+   background-repeat: no-repeat;
+   height: 200px;
+   width: 300px;
+}
+.date{
+    background-color:rgb(255, 255, 255,0.6);
+    width: 40px;
+    margin:4px;
+}
+.cont{
+   text-align:center;
+   color: white;
+   padding-top: 100px;
+   
+}
+.croissant{
+   padding-right:70px;
+   padding-top:10px;
+}
+#cro{
+    margin-right:100px;
+}
+.new button{
+    background-color: red;
+    color: white;
+    
+}
+.map{
+    position: relative;
+    background-color: pink;
+    width: fit-content;
+    height: 200px;
+    
+}
+#map {
+    display: flex;
+    justify-content: center;
+}
+#map img{
+    width: 50%;
+    height: 40%;
+    border-radius: 0px;
+    padding: 10px;
+}
+#location{
+    display: flex;
+    justify-content: center;
+    color: rgb(57, 157, 197);
+    font-size: 30px;
+    opacity: 0.7;
+}
+@media (max-width: 1200px) {
+  .card {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #pastri {
+    width: 300px;
+    height: 250px;
+    margin: 20px 0;
+  }
+
+  .text {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .Goodies {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .img1 {
+    width: 40%;
+  }
+
+  .review-conatiner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-text {
+    grid-template-columns: 1fr;
+  }
+
+  .new {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+    padding: 15px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  #pastri {
+    width: 250px;
+    height: 200px;
+  }
+
+  .para {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .img1 {
+    width: 80%;
+  }
+
+  .article {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .new1, .new2, .new3 {
+    width: 90%;
+    height: 180px;
+  }
+
+  #map img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .Goodies i {
+    font-size: 28px;
+  }
+
+  figcaption {
+    font-size: 14px;
+  }
+
+  #pastri {
+    width: 200px;
+    height: 160px;
+  }
+
+  .text {
+    padding: 15px;
+  }
+
+  .img1 img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .review-section {
+    padding: 30px 0;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .new button {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+ 
+}
+.footer{
+    background-color: rgb(22, 21, 21);
+    height:10vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+h3,i{
+    padding:10px;
+}
